@@ -88,6 +88,7 @@ button {
 
 @media screen and (min-width: 900px) {
   body {
+    position: relative;
     display: flex;
     height: 100vmin;
     justify-content: center;
@@ -131,5 +132,15 @@ button {
   img {
     height: 60px;
     width: 95px;
+  }
+
+  .attribution {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    bottom: 2rem;
+    left: auto;
+    right: auto;
+    font-size: 0.75rem;
   }
 }
